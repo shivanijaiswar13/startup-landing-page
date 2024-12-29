@@ -34,6 +34,8 @@ input{
     outline: none;
     font-size: 1.7rem;
     width: 80%;
+    background: transparent;
+    backdrop-filter: blur(5px);
 }
 .btn{
     display: inline-block;
@@ -105,6 +107,8 @@ header label{
 .home .image img{
     width: 40vw;
     animation: float 3s linear infinite; 
+    border-top-right-radius: 50%;
+    border-bottom-right-radius: 50%;
 }
 
 
@@ -130,8 +134,9 @@ header label{
 
 }
 .home .content h3 span{
-    color: #b2d0ec;
+    color: #ede0d2;
     text-transform: uppercase;
+    font-weight: bolder;
     font-style: italic;
 }
 .home .content p{
