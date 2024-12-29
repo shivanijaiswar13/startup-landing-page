@@ -105,7 +105,7 @@ header label{
     backdrop-filter: blur(3px);
 }
 .home .image img{
-    width: 40vw;
+    width: 50vw;
     animation: float 3s linear infinite; 
     border-top-right-radius: 50%;
     border-bottom-right-radius: 50%;
